@@ -7,7 +7,7 @@ int run = 0;
 void setup() {
   Serial.begin(57600);
   myservo.attach(9);
-  myservo.write(109);
+  myservo.write(108);
 }
 
 void loop() {
